@@ -14,7 +14,7 @@ function Service() {
             <h1 className='mt-5 mb-2 text-center capitalize text-4xl'>our services</h1>
 
 
-            <div className='grid grid-col-1 lg:grid-cols-3 justify-items-center'>
+            <div className='grid grid-col-1 lg:grid-cols-3 justify-items-center '>
                 {/* card-1 */}
                 <div className="py-10">
                     <div className="rounded overflow-hidden shadow-lg max-w-sm bg-[#ffe4c2] p-3">
@@ -66,7 +66,7 @@ function Service() {
 
             {/* raw-2 */}
             
-            <div className='grid grid-col-1 lg:grid-cols-2  lg:gap-80 justify-items-center'>
+            <div className='grid grid-col-1 lg:grid-cols-2  lg:gap-80 justify-items-center '>
 
                 {/* card--4 */}
                 <div className="py-10">
