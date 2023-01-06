@@ -13,8 +13,10 @@ function Solution() {
 
     return (
         <>
-          <div className='bg-[#f1f5f9]'>
-          <div class="owl-carousel owl-theme">
+          <div className='bg-[#f1f5f9] justify-items-center'>
+            <h1 className='mt-4 pt-5 mb-2 text-center capitalize text-4xl'>Developing Software Solutions For Diverse Verticals</h1>
+            <hr className='w-1/5 mx-auto  border-2' />            
+             <div class="owl-carousel owl-theme">
                 <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
                     <img src={education} alt=""/>
                 </div>
