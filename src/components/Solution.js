@@ -4,59 +4,38 @@ import logistic from '../images/asset 31.gif';
 import Game from '../images/asset 32.gif';
 import Ecom from '../images/asset 33.gif';
 import Mplace from '../images/asset 34.gif';
+import OwlCarousel from 'react-owl-carousel';
+import 'owl.carousel/dist/assets/owl.carousel.css';
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+
 
 function Solution() {
-  return (
-    <>
-    <div className='bg-[#f1f5f9]'>
-    <h1 className='mt-4 pt-5 mb-2 text-center capitalize text-4xl'>Developing Software Solutions For Diverse Verticals</h1>
-    <hr className='w-1/5 mx-auto  border-2' />  
-        
-        <div className='grid md:grid-cols-2 lg:grid-cols-5 justify-items-center mt-7 p-5'>
 
-            <div className='mt-5 w-auto py-10 bg-white rounded-lg p-5 hover:bg-[#e5f0fd] hover:border-[#0093ed] duration-300'>
-                <div className='rounded'>
-                    <img src={education} alt="" width='130' height='130' className='m-auto'/>
+    return (
+        <>
+          <div className='bg-[#f1f5f9]'>
+          <div class="owl-carousel owl-theme">
+                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
+                    <img src={education} alt=""/>
                 </div>
-                <h4 className='text-center text'>Education</h4>
-            </div>
-            <div className='mt-5 w-auto  bg-white rounded-lg p-5'>
-                <div className='rounded'>
-                    <img src={logistic} alt="" width='130' height='130' className='m-auto'/>
+                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
+                    <img src={logistic} alt=""/>                 
                 </div>
-                <h4 className='text-center text'>Logistic</h4>
-            </div>
-            <div className='mt-5 w-auto bg-white rounded-lg p-5'>
-                <div className='rounded'>
-                    <img src={Game} alt="" width='130' height='130' className='m-auto'/>
+                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
+                    <img src={Game} alt=""/>
                 </div>
-                <h4 className='text-center text'>Game</h4>
-            </div>
-            <div className='mt-5 w-auto bg-white rounded-lg p-5'>
-                <div className='rounded'>
-                    <img src={Ecom} alt="" width='130' height='130' className='m-auto'/>
+                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'> 
+                    <img src={Ecom} alt=""/>                
                 </div>
-                <h4 className='text-center text'>E-Commerce</h4>
-            </div>
-            <div className='mt-5 w-auto bg-white rounded-lg p-5'>
-                <div className='rounded'>
-                    <img src={Mplace} alt="" width='130' height='130' className='m-auto'/>
+                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'> 
+                    <img src={Mplace} alt=""/>
                 </div>
-                <h4 className='text-center text mt-2'>Marketplace</h4>
             </div>
+          </div>
 
+        </>
 
-
-
-
-        </div>
-        
-    
-    
-    </div>    
-    </>
-    
-  )
+    )
 }
 
 export default Solution

@@ -29,16 +29,16 @@ function Nav() {
                   <div className="flex items-center space-x-1 lg:space-x-5">
                     {/* Desktop Navigation */}
                     <nav className="hidden lg:flex lg:items-center lg:space-x-2">
-                      <a href="#" className="text-lg font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                      <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
                         <span>Home</span>
                       </a>
-                      <a href="#" className="text-lg font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                      <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
                         <span>Profile</span>
                       </a>
-                      <a href="#" className="text-lg font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                      <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
                         <span>Projects</span>
                       </a>
-                      <a href="#" className="text-lg font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                      <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
                         <span>Settings</span>
                       </a>
                     </nav>
