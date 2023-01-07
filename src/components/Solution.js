@@ -13,27 +13,30 @@ function Solution() {
 
     return (
         <>
-          <div className='bg-[#f1f5f9] justify-items-center'>
-            <h1 className='mt-4 pt-5 mb-2 text-center capitalize text-4xl'>Developing Software Solutions For Diverse Verticals</h1>
-            <hr className='w-1/5 mx-auto  border-2' />            
-             <div class="owl-carousel owl-theme">
-                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
-                    <img src={education} alt=""/>
+            <div className='bg-[#f1f5f9] justify-items-center p-5 border-2'>
+                <h1 className='mt-4 pt-5 mb-2 text-center capitalize text-4xl'>Developing Software Solutions For Diverse Verticals</h1>
+                <hr className='w-1/5 mx-auto  border-2' />
+                <div class="owl-carousel owl-theme">
+                    <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
+                        <img src={education} alt="" />
+                    </div>
+                    <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
+                        <img src={logistic} alt="" />
+                    </div>
+                    <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
+                        <img src={Game} alt="" />
+                    </div>
+                    <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
+                        <img src={Ecom} alt="" />
+                    </div>
+                    <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
+                        <img src={Mplace} alt="" />
+                    </div>
                 </div>
-                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
-                    <img src={logistic} alt=""/>                 
-                </div>
-                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'>
-                    <img src={Game} alt=""/>
-                </div>
-                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'> 
-                    <img src={Ecom} alt=""/>                
-                </div>
-                <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5'> 
-                    <img src={Mplace} alt=""/>
+                <div className='text-center'>
+                    <button className='p-3 py-2 px-4 mt-5 border-2 rounded-full  text-[#0093ed] bg-white '>Learn More</button>
                 </div>
             </div>
-          </div>
 
         </>
 
