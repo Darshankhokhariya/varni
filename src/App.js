@@ -1,20 +1,29 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
-// import Card from './components/Card';
-import Service from './components/Service';
-import Nav from './components/Nav';
-import Solution from './components/Solution';
-import Technologi from './components/Technologi';
+
+import {
+  BrowserRouter,
+  Route,
+  Routes,
+} from "react-router-dom";
+import All from './components/All';
+import Design from './components/Design';
+import Frontend from './components/Frontend';
+import Backend from './components/Backend';
 
 function App() {
   return (
   <> 
-    <Nav/>
-    <Header/>
-    <Service/>
-    <Solution/>
-    <Technologi/> 
+     <All/>
+   <Routes>
+      <Route path='/' element={<Design/>} />
+      <Route path='/design' element={<Design/>} />
+      <Route path='/frontend' element={<Frontend/>} />
+      <Route path='/backend' element={<Backend/>} />
+
+    </Routes>
+
+
   </>
   );
 }
