@@ -12,6 +12,7 @@ import Frontend from './components/Frontend';
 import Backend from './components/Backend';
 import Learn from './components/Learn';
 import Testimonials from './components/Testimonials';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route path='/backend' element={<Backend />} />
       </Routes>
       <Testimonials/>
+      <Footer/>
     </>
   );
 }

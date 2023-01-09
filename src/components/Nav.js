@@ -19,7 +19,7 @@ function Nav() {
                   <div className="flex items-center">
                     {/* Logo */}
                     <a href="#" className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline">
-                      <span>VARNI</span>
+                      <span></span>
                     </a>
                     {/* END Logo */}
                   </div>

@@ -12,21 +12,21 @@ function Testimonials() {
                     <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
                         <div className='p-5 border'>
                             <h4>Andrei Popa</h4>
-                            <p className="">Our second large project with Vasundhara Infotech. They have proven over time a dedication and passion to the project second to none. We are currently working and will carry on with them for the years to come.</p>
+                            <p className="">Our second large project with Varni Infotech. They have proven over time a dedication and passion to the project second to none. We are currently working and will carry on with them for the years to come.</p>
                         </div>
                         <div className='p-5 border'>
-                            <h4>Andrei Popa</h4>
-                            <p className="">Our second large project with Vasundhara Infotech. They have proven over time a dedication and passion to the project second to none. We are currently working and will carry on with them for the years to come.</p>
+                            <h4>Pedro L</h4>
+                            <p className="">"I would lack words to define the excellent job they have done, I feel more than grateful ... I can say that all my projects I would recommend 100 x 100 to this team ... a million thanks"</p>
                         </div>
                     </div>
-                    <div className='grid grid-cols-2'>
+                    <div className='grid lg:grid-cols-2 sm:grid-cols-1'>
                         <div className='p-5 border'>
-                            <h4>Andrei Popa</h4>
-                            <p className="">Our second large project with Vasundhara Infotech. They have proven over time a dedication and passion to the project second to none. We are currently working and will carry on with them for the years to come.</p>
+                            <h4>Iran Hadad</h4>
+                            <p className="">varni Infotech is the best when it comes to mobile application development on varni vision. They have the huge experience and expertise team to be the best. Great Experience, the very professional and Excellent developers team, Highly recommend for mobile development services..</p>
                         </div>
                         <div className='p-5 border'>
-                            <h4>Andrei Popa</h4>
-                            <p className="">Our second large project with Vasundhara Infotech. They have proven over time a dedication and passion to the project second to none. We are currently working and will carry on with them for the years to come.</p>
+                            <h4>Philip A.</h4>
+                            <p className="">We've been working with VV for almost two years and this team is awesome! They always respond fast (sometimes even on weekends), and their ability to code is flawless, delivering very complex tasks in very short periods of time. We're very happy to work with this team and we'll continue to work together in the future.</p>
                         </div>
                     </div>
                 </Carousel>
