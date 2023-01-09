@@ -7,6 +7,7 @@ import Mplace from '../images/asset 34.gif';
 import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
+import { Link } from 'react-router-dom';
 
 
 function Solution() {
@@ -19,22 +20,27 @@ function Solution() {
                 <div class="owl-carousel owl-theme">
                     <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
                         <img src={education} alt="" />
+                        <h2 className='text-center text-xl'>Education</h2>
                     </div>
                     <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
                         <img src={logistic} alt="" />
+                        <h2 className='text-center text-xl'>Logistic</h2>
                     </div>
                     <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
                         <img src={Game} alt="" />
+                        <h2 className='text-center text-xl'>Game</h2>
                     </div>
                     <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
                         <img src={Ecom} alt="" />
+                        <h2 className='text-center text-xl'>E-commerce</h2>
                     </div>
                     <div className='mx-5 mt-5 w-auto  bg-white rounded-lg p-5 shadow-md'>
                         <img src={Mplace} alt="" />
+                        <h2 className='text-center text-xl'>Marketplace</h2>
                     </div>
                 </div>
                 <div className='text-center'>
-                    <button className='p-3 py-2 px-4 mt-5 border-2 rounded-full  text-[#0093ed] bg-white '>Learn More</button>
+                   <Link to='/learn'><button className='p-3 py-2 px-4 mt-5 border-2 rounded-full  text-[#0093ed] bg-white '>Learn More</button></Link> 
                 </div>
             </div>
 

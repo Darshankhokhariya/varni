@@ -10,23 +10,22 @@ import All from './components/All';
 import Design from './components/Design';
 import Frontend from './components/Frontend';
 import Backend from './components/Backend';
+import Learn from './components/Learn';
 
 function App() {
   return (
-  <> 
-     <All/>
-   <Routes>
-      <Route path='/' element={<Design/>} />
-      <Route path='/design' element={<Design/>} />
-      <Route path='/frontend' element={<Frontend/>} />
-      <Route path='/backend' element={<Backend/>} />
+    <>
+      <All />
+      <Routes>
+        <Route path='/learn' element={<Learn/>} />
+        <Route path='/' element={<Design />} />
+        <Route path='/design' element={<Design />} />
+        <Route path='/frontend' element={<Frontend />} />
+        <Route path='/backend' element={<Backend />} />
 
-    </Routes>
-
-
-  </>
+      </Routes>
+    </>
   );
 }
 
 export default App;
- 
