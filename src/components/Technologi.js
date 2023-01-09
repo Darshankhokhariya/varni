@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
+import Testimonials from './Testimonials';
 
 function Technologi() {
     return (
@@ -11,7 +12,7 @@ function Technologi() {
                     <Link to='/frontend' className='no-underline text-black'><div className='mx-4  text-xl hover:text-[#0093ed] hover:border-b-2 transition duration-100'>Frontend</div></Link>
                     <Link to='/backend' className='no-underline text-black'><div className='mx-4  text-xl hover:text-[#0093ed] hover:border-b-2 transition duration-100'>Backend</div></Link>
                 </div>
-        </div>
+          </div>
       </div>
     )
 }

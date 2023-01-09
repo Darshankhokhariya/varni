@@ -11,6 +11,7 @@ import Design from './components/Design';
 import Frontend from './components/Frontend';
 import Backend from './components/Backend';
 import Learn from './components/Learn';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -18,12 +19,12 @@ function App() {
       <All />
       <Routes>
         <Route path='/learn' element={<Learn/>} />
-        <Route path='/' element={<Design />} />
+        <Route path='/' element={<Design/>} />
         <Route path='/design' element={<Design />} />
         <Route path='/frontend' element={<Frontend />} />
         <Route path='/backend' element={<Backend />} />
-
       </Routes>
+      <Testimonials/>
     </>
   );
 }

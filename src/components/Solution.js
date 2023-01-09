@@ -8,6 +8,7 @@ import OwlCarousel from 'react-owl-carousel';
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from 'react-router-dom';
+import Learn from './Learn';
 
 
 function Solution() {
@@ -43,7 +44,7 @@ function Solution() {
                    <Link to='/learn'><button className='p-3 py-2 px-4 mt-5 border-2 rounded-full  text-[#0093ed] bg-white '>Learn More</button></Link> 
                 </div>
             </div>
-
+            
         </>
 
     )
