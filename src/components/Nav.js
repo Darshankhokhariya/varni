@@ -1,7 +1,8 @@
 import React from 'react'
 import { Fragment, useState } from "react";
 import { Menu, Transition } from "@headlessui/react";
-
+import { Link } from 'react-router-dom';
+import varni from '../images/varni.svg'
 
 
 function Nav() {
@@ -19,7 +20,9 @@ function Nav() {
                   <div className="flex items-center">
                     {/* Logo */}
                     <a href="#" className="group inline-flex items-center space-x-2 font-bold text-lg tracking-wide text-gray-700 active:text-gray-700 no-underline">
-                      <span></span>
+                      <span>
+                        <img src={varni} alt="" width='40px' className='mx-3' />
+                      </span>
                     </a>
                     {/* END Logo */}
                   </div>
@@ -38,9 +41,11 @@ function Nav() {
                       <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
                         <span>Projects</span>
                       </a>
-                      <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
-                        <span>Settings</span>
+                     <Link to='/contactus'>
+                     <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                        <span>Contact Us</span>
                       </a>
+                     </Link>
                     </nav>
                     {/* END Desktop Navigation */}
     

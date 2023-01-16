@@ -1,10 +1,21 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function Footer() {
+
+    const [email, setemail] = useState('');
+    const [name, setname] = useState('');
+
+
+    const setval = () => {
+        localStorage.setItem("Name",name);
+        localStorage.setItem("Email",email);
+    }
+
+
     return (
         <div>
             <footer class="bg-[#122234] dark:bg-gray-900">
-                <div class="grid lg:grid-cols-3 gap-8 px-6 py-8 md:grid-cols-3 justify-items-center">
+                <div class="grid lg:grid-cols-4 gap-8 px-6 py-8 md:grid-cols-3 justify-items-center">
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-white uppercase mx-5">Company</h2>
                         <ul class="text-gray-500 dark:text-gray-400 mx-3">
@@ -22,6 +33,7 @@ function Footer() {
                             </li>
                         </ul>
                     </div>
+
                     <div>
                         <h2 class="mb-6 text-sm font-semibold text-white uppercase mx-5">Help center</h2>
                         <ul class="text-gray-500 dark:text-gray-400 mx-3">
@@ -55,6 +67,19 @@ function Footer() {
                                 <a href="#" class="no-underline text-[#b0b0b0]">MacOS</a>
                             </li>
                         </ul>
+                    </div>
+                    <div>
+                        <form>
+                            <div class="mb-6">
+                                <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                                <input type="email" id="email"  onChange={(e) => {setemail(e.target.value)}}   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Email" required/>
+                            </div>
+                            <div class="mb-6">
+                                <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+                                <input type="name" id="password"  onChange={(e) => {setname(e.target.value)}}   class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder='Name' required/>
+                            </div>
+                            <button type="button" class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800" onClick={setval}>register</button>
+                        </form>
                     </div>
                 </div>
                 <div class="px-4 py-6 bg-gray-100 dark:bg-gray-700 md:flex md:items-center md:justify-between">

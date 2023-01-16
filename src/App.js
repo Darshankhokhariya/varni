@@ -13,6 +13,7 @@ import Backend from './components/Backend';
 import Learn from './components/Learn';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import Contactus from './components/Contactus';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       </Routes>
       <Testimonials/>
       <Footer/>
+      
     </>
   );
 }
