@@ -42,8 +42,8 @@ function Nav() {
                         <span>Projects</span>
                       </a>
                      <Link to='/contactus'>
-                     <a href="#" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
-                        <span>Contact Us</span>
+                     <a href="" className="text-lg text-black font-medium flex items-center space-x-2 px-3 py-2 no-underline">
+                        <span className='no-underline'>Contact Us</span>
                       </a>
                      </Link>
                     </nav>
@@ -92,8 +92,6 @@ function Nav() {
                 {/* END Mobile Navigation */}
               </div>
             </header>
-    
-           
           </div>
 
         </>

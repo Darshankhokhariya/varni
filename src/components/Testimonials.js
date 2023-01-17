@@ -19,7 +19,7 @@ function Testimonials() {
                         </div>
                         <div className='p-5 border w-full h-64'>
                             <h4>Iran Hadad</h4>
-                            <p className="">varni Infotech is the best when it comes to mobile application development on varni vision. They have the huge experience and expertise team to be the best. Great Experience, the very professional and Excellent developers team, Highly recommend for mobile development services..</p>
+                            <p className="">varni Technosoft is the best when it comes to mobile application development on varni vision. They have the huge experience and expertise team to be the best. Great Experience, the very professional and Excellent developers team, Highly recommend for mobile development services..</p>
                         </div>
                         <div className='p-5 border w-full h-64'>
                             <h4>Philip A.</h4>
