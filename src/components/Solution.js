@@ -5,9 +5,10 @@ import Game from '../images/asset 32.gif';
 import Ecom from '../images/asset 33.gif';
 import Mplace from '../images/asset 34.gif';
 import 'swiper/css';
-import 'swiper/css/free-mode'
+import 'swiper/css/free-mode';
+import 'swiper/css/autoplay';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { FreeMode } from 'swiper';;
+import { FreeMode , Autoplay } from 'swiper';;
 
 
 function Solution() {
@@ -20,7 +21,12 @@ function Solution() {
                 <Swiper
                     spaceBetween={0}
                     slidesPerView={5}
-                    modules={[FreeMode]}
+                    modules={[FreeMode , Autoplay]}
+                    loop={true}
+                    autoplay={{
+                        delay:1200,
+                        disableOnInteraction:false
+                    }}
                     onSlideChange={() => console.log('slide change')}
                     onSwiper={(swiper) => console.log(swiper)}
                     breakpoints={
